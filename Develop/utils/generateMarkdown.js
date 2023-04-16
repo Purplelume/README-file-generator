@@ -9,7 +9,9 @@ function renderLicenseBadge(license) {
     licenseBadge = "![License Badge](https://shields.io/badge/license-" + license + "-blue)";
   }
 
-  return licenseBadge;
+  let markdown = "# " + licenseBadge + "\n";
+
+  return markdown;
 }
 
 // Create a function that returns the license link
@@ -33,7 +35,9 @@ function renderLicenseLink(license) {
       break;
   }
   
-  return licenseLink;
+  let markdown = "# " + licenseLink + "\n";
+
+  return markdown;
 }
 
 // Create a function that returns the license section of README
@@ -48,19 +52,21 @@ function renderLicenseSection(license) {
     licenseSection += "Please see " + renderLicenseLink(license) + " to get detailed information for this license\n";
   }
 
-  return licenseSection;
-}
-
-// Create a function to generate markdown for README
-function generateMarkdown(data) {
-
-  // License badge added
-  let markdown = "# " + renderLicenseBadge(data.license) + "\n";
-
-  // License added
-  markdown += renderLicenseSection(data.license) + "\n";
+  let markdown = "# " + licenseSection + "\n";
 
   return markdown;
 }
+
+// // Create a function to generate markdown for README
+// function generateMarkdown(data) {
+
+//   // License badge added
+  
+
+//   // License added
+//   markdown += renderLicenseSection(data.license) + "\n";
+
+//   return markdown;
+// }
 
 module.exports = generateMarkdown;
