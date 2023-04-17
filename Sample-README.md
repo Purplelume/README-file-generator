@@ -31,6 +31,3 @@ Do as shown here to test the application:
 
 ## Do you have any questions
 Don't esitate to reach me at my GitHub (Purplelume) or reach out at my email address: sample@gmail.com
-
-## Watch a video Tutorial here:
-[Link to the Video Tutorial](https://drive.google.com/file/d/1hwreAWvFzJu0VVMXmaAPakPEUajjT9Bz/view)

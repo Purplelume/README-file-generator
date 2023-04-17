@@ -93,9 +93,7 @@ Do as shown here to test the application:
 ${data["Test"]}
 
 ## Do you have any questions
-Don't esitate to reach me at my GitHub (${data["Username"]}) or reach out at my email address: ${data["Email"]}
-
-## Watch a video Tutorial here:`;
+Don't esitate to reach me at my GitHub (${data["Username"]}) or reach out at my email address: ${data["Email"]}`;
 
 
     // Assign the project title to the new README file
